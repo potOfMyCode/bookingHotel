@@ -22,7 +22,7 @@
     <script src="${pageContext.request.contextPath}/js/bootstrap.js"></script>
 </head>
 <body style="background-image: url(${pageContext.request.contextPath}/picture/backgrounds/sky2.jpg)">
-<jsp:include page="/WEB-INF/guest/header.jsp"/>
+<jsp:include page="/WEB-INF/admin/header.jsp"/>
 
 <div id="container" style="position:absolute;
 width:100%;
@@ -30,8 +30,7 @@ top:42%;
 text-align:center;
 color: yellow">
     <p><h1><fmt:message key="booking.not.auth"/></h1></p>
-    <a href="${pageContext.request.contextPath}/underSky/go_login"><h4 style="color: red"><fmt:message key="header.login"/></h4></a>
-    <a href="${pageContext.request.contextPath}/underSky/go_registration"><h4 style="color: deeppink"><fmt:message key="header.loginbar.join"/></h4></a>
+    <a href="${pageContext.request.contextPath}/underSky/"><h4 style="color: red"><fmt:message key="header.home"/></h4></a>
 </div>
 
 
