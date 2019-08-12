@@ -1,0 +1,57 @@
+.container {
+     width: 100%;
+     max-width: 900px; /*максимальная ширина может иметь другое значение*/
+     padding: 0 15px;
+     margin: 0 auto;
+    position:relative;
+ }
+.row{
+    margin-top: 15%;
+    display: flex;
+    background-color: rgb(186, 233, 221) !important;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 18px 3px rgba(0, 0, 0, 0.6);
+}
+.data {
+   float: left;
+    margin: 0 auto;
+}
+.paycard {
+    float: right;
+    margin: 0 auto;
+}
+.pay-button{
+    float: left;
+    min-width:150px;
+}
+.img-cards{
+    float: bottom;
+}
+.card-form{
+    background: seashell;
+    border-width: 2px;
+    border-style: solid;
+    border-color: darkblue;
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+}
+#cvv, #cardcode ,#valid, #valid2{
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkcyan;
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+    text-align: center;
+}
+#img_card{
+    position:absolute;
+    bottom:0;
+    padding: 0;
+    margin: 0;
+}
+.myText{
+
+}
